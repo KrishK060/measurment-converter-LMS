@@ -15,8 +15,7 @@ class Length_and_distance{
         return "Invalid Unit";
     }
 
-    $ans = $value * $this->units[$from];
-    return $ans / $this->units[$to];
+    return  ($value * $this->units[$from]) / ($this->units[$to]);
  }
     public function get_units(){
         return array_keys($this->units);

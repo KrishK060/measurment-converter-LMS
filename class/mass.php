@@ -1,12 +1,11 @@
 <?php
-class area{
+class mass{
     private $units=[
-        'square meter'=>1,
-        'square kilometer'=>0.000001,
-        'square millimeter'=>1000000,
-        'square centimeter'=>10000,
-        'hectare'=>0.0001,
-        'acre'=>0.0002471054,
+        'kg'=>1,
+        'Gram'=>1000,
+        'Milligram'=>1000000,
+        'Metric Ton'=>0.001,
+        'Pound'=>2.2046244202,
     ];
  public function converter($value,$from,$to){
     if (!isset($this->units[$from]) || !isset($this->units[$to])) {

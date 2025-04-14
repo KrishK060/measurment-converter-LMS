@@ -1,7 +1,7 @@
 <?php
 require 'request.php';
-require 'class/volume.php';
-$converter = new volume;
+require 'class/mass.php';
+$converter = new mass;
 $data = handleRequest($converter);
 $units = $converter->get_units();
 

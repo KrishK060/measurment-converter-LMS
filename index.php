@@ -18,8 +18,8 @@
         <div class="d-grid gap-3 col-10 col-md-6">
             <a href="length_and_distance.php" class="btn border-primary btn-lg">Length and Distance</a>
             <a href="Area.php" class="btn border-primary btn-lg">Area</a>
-            <a href="form.php" class="btn border-primary btn-lg">Volume & Capacity</a>
-            <a href="form.php" class="btn border-primary btn-lg">Mass & Weight</a>
+            <a href="Volume.php" class="btn border-primary btn-lg">Volume & Capacity</a>
+            <a href="Mass.php" class="btn border-primary btn-lg">Mass & Weight</a>
             <a href="form.php" class="btn border-primary btn-lg">Speed</a>
             <a href="form.php" class="btn border-primary btn-lg">Temperature</a>
         </div>
