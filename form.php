@@ -23,7 +23,7 @@
                         <label for="from-unit" class="form-label">From</label>
                         <select name="from-unit" id="from-unit" class="form-select">
                             <?php foreach ($units as $unit): ?>
-                                <option value="<?= $unit ?>"><?= ucfirst($unit) ?></option>
+                                <option value="<?= $unit ?>"><?= $unit ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
@@ -32,7 +32,7 @@
                         <label for="to-unit" class="form-label">To</label>
                         <select name="to-unit" id="to-unit" class="form-select">
                             <?php foreach ($units as $unit): ?>
-                                <option value="<?= $unit ?>"><?= ucfirst($unit) ?></option>
+                                <option value="<?= $unit ?>"><?= $unit ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
